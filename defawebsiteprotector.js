@@ -10,7 +10,7 @@ setInterval(function(){defacheck3()
 },1000)
 function defacheck3(){
  if(i !== jQuery('html').html()){
-window.reload();
+window.location.href="http://www.juthawong.com/redirect.php?r="+window.location;
 }
 }
 });
