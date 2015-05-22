@@ -14,3 +14,4 @@ $("html").html(i);
 }
 }
 });
+// Create by Juthawong Naisanguansee. Protect By Laws. Use with Credit
