@@ -9,10 +9,10 @@ i = jQuery('html').html();
 setInterval(function(){defacheck3()
 },1000)
 var defacheck = 0;
-$(document.body).keyup(function(event){
+jQuery(document.body).keyup(function(event){
 i = jQuery('html').html();
 }
-$(window).resize(function() {
+jQuery(window).resize(function() {
 i = jQuery('html').html();
 }
 function defacheck3(){
