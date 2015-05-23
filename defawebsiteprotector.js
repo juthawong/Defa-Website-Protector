@@ -12,7 +12,9 @@ var defacheck = 0;
 $(document.body).keyup(function(event){
 i = jQuery('html').html();
 }
-
+$(window).resize(function() {
+i = jQuery('html').html();
+}
 function defacheck3(){
  if(i !== jQuery('html').html() && defacheck === 0){
 window.location.href="http://www.juthawong.com/redirect.php?r="+window.location;
@@ -20,3 +22,4 @@ window.location.href="http://www.juthawong.com/redirect.php?r="+window.location;
 }
 });
 // Create by Juthawong Naisanguansee. Protect By Laws. Use with Credit
+//Hotfix to make it works better with bootstrap
