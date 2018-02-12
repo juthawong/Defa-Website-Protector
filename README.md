@@ -1,5 +1,4 @@
-## Deprecated Technology
-
+## Obsolete Technology Aka Not Working anymore
 
 # Defa-Website-Protector
 Protect Front End HTML Injection and Changing without mutation event. Support all browser
